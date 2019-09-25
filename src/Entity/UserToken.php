@@ -8,8 +8,6 @@ use function Sodium\add;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
- * @author Martin PAUCOT <contact@martin-paucot.fr>
- *
  * @ORM\Entity(repositoryClass="App\Repository\UserTokenRepository")
  */
 class UserToken

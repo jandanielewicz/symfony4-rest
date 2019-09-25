@@ -7,9 +7,6 @@ use App\Entity\UserToken;
 use Doctrine\ORM\EntityRepository;
 
 
-/**
- * @author Martin PAUCOT <contact@martin-paucot.fr>
- */
 class UserTokenRepository extends EntityRepository
 {
 

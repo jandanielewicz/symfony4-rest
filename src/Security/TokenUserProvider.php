@@ -2,6 +2,7 @@
 
 
 namespace App\Security;
+
 use App\Entity\User;
 use App\Entity\UserToken;
 use App\Repository\UserRepository;
@@ -12,9 +13,6 @@ use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Security\Core\User\UserProviderInterface;
 
 
-/**
- * @author Martin PAUCOT <contact@martin-paucot.fr>
- */
 class TokenUserProvider implements UserProviderInterface
 {
 

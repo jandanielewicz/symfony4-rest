@@ -7,9 +7,6 @@ use Doctrine\ORM\EntityRepository;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
 
-/**
- * @author Martin PAUCOT <contact@martin-paucot.fr>
- */
 class UserRepository extends EntityRepository
 {
 

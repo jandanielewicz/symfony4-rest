@@ -9,9 +9,6 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Serializer\SerializerInterface;
 
-/**
- * @author Martin PAUCOT <contact@martin-paucot.fr>
- */
 class UserController extends Controller
 {
 

@@ -14,9 +14,6 @@ use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 use Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException;
 use Symfony\Component\Serializer\SerializerInterface;
 
-/**
- * @author Martin PAUCOT <contact@martin-paucot.fr>
- */
 class AuthController extends Controller
 {
 

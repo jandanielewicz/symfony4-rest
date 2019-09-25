@@ -13,9 +13,6 @@ use Symfony\Component\Security\Core\User\UserProviderInterface;
 use Symfony\Component\Security\Http\Authentication\SimplePreAuthenticatorInterface;
 use Symfony\Component\Security\Http\HttpUtils;
 
-/**
- * @author Martin PAUCOT <contact@martin-paucot.fr>
- */
 class UserTokenAuthenticator implements SimplePreAuthenticatorInterface
 {
     const TOKEN_VALIDITY_DURATION = 10 * 3600;
